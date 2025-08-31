@@ -1,0 +1,153 @@
+:root {
+    --primary-color: rgb(6, 23, 2);
+    --secondary-color: rgb(6, 53, 2);
+}
+
+html, body{
+    overflow-x: hidden; 
+}
+
+body {
+    background-image: radial-gradient(rgb(6, 23, 2), rgb(0, 0, 0));
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://i.pinimg.com/736x/a6/2b/d5/a62bd57e6625611c4d8034b754bc3ae2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-dark-success {
+    background-color: var(--primary-color) !important;
+}
+
+.wiith {
+    width: 60%;
+}
+
+.p-6 {
+    position: absolute !important;
+    top: 45px !important;
+    right: 20px;
+}
+
+.p-7 {
+    position: absolute !important;
+    top: 78px !important;
+    right: 50px;
+}
+
+.carousel-indicators button {
+    background-color: var(--primary-color) !important;
+    height: 25px !important;
+    width: 25px !important;
+    border-radius: 50%;
+}
+
+
+.bg-dark-success {
+    background-color: var(--primary-color);
+}
+
+.btn-dark-success {
+    background-color: var(--primary-color);
+}
+
+
+
+.btn-dark-success:hover {
+    background-color: var(--secondary-color);
+}
+
+
+.text-light-yellow {
+    color: lightgreen !important;
+}
+
+.rotate-object {
+    transform: rotate(-5deg);
+}
+
+.right-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://i.pinimg.com/1200x/c8/1c/f8/c81cf8bca5c20e72a0829eb749c90ea1.jpg");
+    border-start-end-radius: 30px;
+    border-bottom-right-radius: 30px
+}
+
+
+.circle {
+    position: absolute;
+    left: 1150px;
+    top: 2180px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #464545;
+    margin-right: 90px;
+    z-index: -2;
+    animation: pulse 3s infinite ease-in-out;
+    animation: pulse1 3s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.1;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+}
+
+
+@keyframes pulse1 {
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0.1;
+    }
+}
+
+.card-image-2 {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+        url("https://i.pinimg.com/736x/a6/2b/d5/a62bd57e6625611c4d8034b754bc3ae2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* LOGIN PAGE */
+.login-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("https://img.freepik.com/premium-photo/dark-green-abstract-background_700024-7.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.overlay-dark {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 500px;
+}
+
+
+.card-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://img.freepik.com/premium-photo/dark-green-abstract-background_700024-7.jpg") !important;
+    transform: skewX(2deg);
+}
